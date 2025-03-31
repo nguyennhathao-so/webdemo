@@ -43,9 +43,9 @@
             <li ><a class="vanban" href="/views/suKien.html">SỰ KIỆN</a></li>
             <nav >
                 <ul class="login">
-                    <li ><a class="vanban" href="/views/dangNhap.html">ĐĂNG NHẬP</a></li>
-                    <li class="vanban" >/</li>
-                    <li ><a class="vanban" href="/views/dangKy.html">ĐĂNG KÝ</a></li>
+                    <li><a class="vanban" id="login-toggle-btn">ĐĂNG NHẬP</a></li>
+                    <li class="vanban">/</li>
+                    <li><a class="vanban" id="register-toggle-btn">ĐĂNG KÝ</a></li>
                 </ul>
             </nav>
           </ul>
@@ -96,6 +96,11 @@
                 </div>
         </div>
     </div>
+    <!-- Điểm neo để nhúng các form -->
+    <div id="auth-forms-container"></div>
+
+    <!-- Chỉ nhúng một file -->
+    <script src="/public/javascript/auth.js"></script>
     <script src="/public/javascript/faq.js"></script>
 </body>
 </html>
